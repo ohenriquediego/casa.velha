@@ -198,6 +198,7 @@ nav ul li a:hover {
     .hamburger {
         display: block;
     }
+    }
 
     nav ul {
         position: fixed;
