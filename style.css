@@ -193,30 +193,3 @@ nav ul li a:hover {
     color: aqua;
 }
 
-/* ======== MENU MOBILE ======== */
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-    }
-
-    nav ul {
-        position: fixed;
-        top: 0;
-        right: -250px; /* escondido inicialmente */
-        width: 250px;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.95);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        transition: 0.3s ease;
-        z-index: 1001;
-    }
-
-    nav ul.show {
-        right: 0;
-    }
-}
-
