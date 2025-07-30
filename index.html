@@ -57,21 +57,5 @@ e para a fragilidade das aparências em uma sociedade <br> conservadora.</p>
         </section><!--topo-do-site-->
         <div class="hamburger" id="hamburger">&#9776;</div>
     </main>
-    <script>
-    const hamburger = document.getElementById('hamburger');
-    const menu = document.getElementById('menu');
-
-    hamburger.addEventListener('click', () => {
-        menu.classList.toggle('show');
-    });
-
-    // Fecha o menu ao clicar em um link
-    document.querySelectorAll('#menu a').forEach(link => {
-        link.addEventListener('click', () => {
-            menu.classList.remove('show');
-        });
-    });
-</script>
-
 </body>
 </html>
